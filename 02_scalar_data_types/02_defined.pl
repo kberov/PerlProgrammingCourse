@@ -1,0 +1,12 @@
+use strict; use warnings;
+#use diagnostics;
+$\ = $/;
+my $data;
+print $data if defined($data);
+$data = 0;
+print defined($data);
+print  $data if defined($data);
+undef $data;
+print defined($data);
+$_ = 2;
+print defined;
