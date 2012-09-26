@@ -1,0 +1,9 @@
+Go on, enter something
+Now enter some number:
+Now enter some number:
+Enter some string
+Enter some string
+Enter some string
+Enter some string
+Oh you tried to kill me.  at stdout.pl line 4, <STDIN> line 6.
+Oh you tried to kill me.  at stdout.pl line 4, <STDIN> line 6.
