@@ -1,0 +1,43 @@
+−i[extension]
+            specifies that files processed by the "<>" construct are to be edited
+            in−place.  It does this by renaming the input file, opening the output file
+            by the original name, and selecting that output file as the default for
+            print() statements.  The extension, if supplied, is used to modify the name
+            of the old file to make a backup copy, following these rules:
+
+            If no extension is supplied, no backup is made and the current file is over‐
+            written.
+
+            If the extension doesn’t contain a "*", then it is appended to the end of the
+            current filename as a suffix.  If the extension does contain one or more "*"
+            characters, then each "*" is replaced with the current filename.  In Perl
+            terms, you could think of this as:
+
+                ($backup = $extension) =~ s/\*/$file_name/g;
+
+            This allows you to add a prefix to the backup file, instead of (or in addi‐
+            tion to) a suffix:
+
+                $ perl ‐pi’orig_*’ ‐e ’s/bar/baz/’ fileA    # backup to ’orig_fileA’
+
+            Or even to place backup copies of the original files into another directory
+            (provided the directory already exists):
+
+                $ perl ‐pi’old/*.orig’ ‐e ’s/bar/baz/’ fileA # backup to ’old/fileA.orig’
+
+            These sets of one‐liners are equivalent:
+
+                $ perl ‐pi ‐e ’s/bar/baz/’ fileA            # overwrite current file
+                $ perl ‐pi’*’ ‐e ’s/bar/baz/’ fileA         # overwrite current file
+
+                $ perl ‐pi’.orig’ ‐e ’s/bar/baz/’ fileA     # backup to ’fileA.orig’
+                $ perl ‐pi’*.orig’ ‐e ’s/bar/baz/’ fileA    # backup to ’fileA.orig’
+
+            From the shell, saying
+
+                $ perl ‐p ‐i.orig ‐e "s/foo/bar/; ... "
+
+            is the same as using the program:
+
+                #!/usr/bin/perl ‐pi.orig
+                s/foo/bar/;
