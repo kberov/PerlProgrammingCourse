@@ -1,0 +1,38 @@
+I was in a coffee shop in Portland, Oregon and happened to spot Linus Torvalds sitting alone at a window table. I asked the creator of the Linux operating system and the Git source code control system if I could join him. Over the next fifteen minutes we talked about programming and programmers.
+
+Typical Programmer: It’s been 20 years since Linux was released. Now it’s one of the most widely-used operating systems. How does that make you feel?
+
+Linus Torvalds: Surprised, frankly. It was a hobby project I didn’t expect to do much with. As interest in Linux grew I saw it used mainly by the hardcore programmers and computer geeks to separate themselves from the herd. There are a lot of people in the software industry who like to show off that they’re using the latest software or programming language. It’s a status thing, like the people who talk about obscure indie bands or foreign movies. Whether it’s Linux or Haskell or MongoDB or whatever, every workplace has at least one guy who spends most of his time talking about closures and how he is moving his blog to NodeJS so it will scale.
+
+Linux is mainstream now. Did it get too easy?
+
+I don’t think it’s any easier, but there are a lot more resources now. In most ways Linux is more complicated to learn and use than Windows or MacOS. The people using it for servers were already used to Unix so it was no big change for them. They were used to conflicting updates and dependencies and shared library hell. On the desktop I think people lost interest after a few years.
+
+Lost interest?
+
+No one is excited anymore about transparent console windows or Kate color schemes or being the first to post on Slashdot how to get some weird sound card to work. That’s what got the early adopters to switch from Windows to Linux. Now Linux looks like Windows. I can install Ubuntu on my grandmother’s laptop and she wouldn’t know the difference, as long as there’s a Facebook icon on the screen.
+
+What about all of the Linux distros out there? It seems like there are more distros than Linux desktop users.
+
+There are more Linux distros on a single Linux Format disc than Microsoft has versions of Windows. But they’re all pretty much the same thing warmed over. Only the clever and cute names distinguish one distro from another. Once a Linux For Dummies book was published I started to lose interest in it.
+You released the Git distributed version control system less than ten years ago. Git caught on quickly and seems to be the dominant source code control system, or at least the one people argue about most on Reddit and Hacker News.
+
+Git has taken over where Linux left off separating the geeks into know-nothings and know-it-alls. I didn’t really expect anyone to use it because it’s so hard to use, but that turns out to be its big appeal. No technology can ever be too arcane or complicated for the black t-shirt crowd.
+
+I thought Subversion was hard to understand. I haven’t wrapped my head around Git yet.
+
+You’ll spend a lot of time trying to get your head around it, and being ridiculed by the experts on github and elsewhere. I’ve learned that no toolchain can be too complicated because the drive for prestige and job security is too strong. Eventually you’ll discover the Easter egg in Git: all meaningful operations can be expressed in terms of the rebase command. Once you figure that out it all makes sense. I thought the joke would be obvious: rebase, freebase, as in what was Linus smoking? But programmers are an earnest and humorless crowd and the gag was largely lost on them.
+
+What do you think of github?
+
+It started as a place for mothballing unmaintained and unnecessary projects, and that is still most of what is hosted there. But it’s turned into a kind of World of Warcraft universe for programmers, where they are ranked by their commits and which projects they have trunk privileges on. I read about a recruiting company built around the idea that github reputation means something, so I guess if you aren’t committing to github you won’t be getting a job at the coolest startups. The good old days of writing FizzBuzz and moving Mt. Fuji during your interview are over.
+
+It sounds like you’ve soured a little on Git.
+
+The first Git For Dummies and Git Visual Quickstart books are going to be out in a couple of months, and that is the beginning of the end as far as I’m concerned. Those books mean the end of git expertise and github reputation as reliable indicators of geek status. Once a technology is adopted by the masses the extreme geeks find something more esoteric. Look at what happened to Ruby on Rails. The people stumbling their way through Rails to-do list tutorials have never even heard of DHH.
+
+So what’s next?
+
+I’m not sure. It’s getting hard to predict the next technology fashion. I have a text editor I’ve been using myself that is so complicated it makes VIM look like Notepad — maybe I’ll release that.
+
+Linus finished his coffee and had to leave. I appreciate his time and for making me think about Linux and Git in new ways.
