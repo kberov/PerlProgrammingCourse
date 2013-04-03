@@ -9,7 +9,7 @@ use strict; use warnings; $\ =$/;
         print 'My dog is named ' . $dog;
     }
     print 'My dog is named ' . $dog;
-
+#}{
     package BadDogs;
     print $/.'We are in package ' . __PACKAGE__;
     print 'Previous dog is named ' . $dog;
